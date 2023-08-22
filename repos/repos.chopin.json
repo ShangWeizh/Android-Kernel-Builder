@@ -4,8 +4,8 @@
       "name": "android_kernel_coolpad_c558",
       "repo": "https://github.com/Iscle/android_kernel_coolpad_c558/",
       "branch": "master",
-      "device": "k39tv1_bsp_512",
-      "defconfig": "k39tv1_bsp_512_defconfig"
+      "device": "c558",
+      "defconfig": "c558_defconfig"
     },
     "withKernelSU": false,
     "toolchains": [

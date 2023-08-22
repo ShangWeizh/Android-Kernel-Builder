@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "Chopin_KernelSU_Proton",
-      "repo": "https://github.com/AOSP-13-Mediatek/kernel_xiaomi_chopin",
-      "branch": "r",
-      "device": "chopin",
-      "defconfig": "chopin_user_defconfig"
+      "name": "android_kernel_coolpad_c558",
+      "repo": "https://github.com/Iscle/android_kernel_coolpad_c558/",
+      "branch": "master",
+      "device": "k39tv1_bsp_512",
+      "defconfig": "k39tv1_bsp_512_defconfig"
     },
     "withKernelSU": false,
     "toolchains": [
@@ -16,9 +16,9 @@
         "binPath": ["./bin"]
       }
     ],
-    "ccache": true,
+    "ccache": false,
     "params": {
-      "ARCH": "arm64",
+      "ARCH": "arm",
       "CC": "proton-clang/bin/clang",
       "externalCommand": {
         "CROSS_COMPILE": "proton-clang/bin/aarch64-linux-gnu-",
